@@ -1,7 +1,7 @@
 import { getAllGameIds, getGameShowCaseData } from '../../lib/showcase';
 
 export default function Post({ gameData }) {
-  console.log(gameData);
+  // console.log(gameData);
 }
 
 export async function getStaticPaths() {
