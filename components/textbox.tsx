@@ -16,13 +16,15 @@ export default function Textbox({scenario, index}) {
 
           </div>
 
-          <button
-            className="flex items-center justify-center absolute px-4 pt-1 font-medium h-8 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded w-28"
-            type="button"
-            onClick={() => setCounter(counter+1)}
-          >
-            Next
-          </button>
+          <div>
+            <button
+              className="flex items-center justify-center absolute px-4 pt-1 font-medium h-8 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded w-28"
+              type="button"
+              onClick={() => setCounter(counter+1)}
+            >
+              Next
+            </button>
+          </div>
         </div>
     );
 }

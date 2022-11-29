@@ -3,9 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Textbox from '../components/textbox'
 
-
 export default function Home() {
-
   const scenario = [
     "another day with nobody",
     "everyone is disapperad",
@@ -13,6 +11,7 @@ export default function Home() {
   ]
 
   const index = 0
+
 
   return (
     <div className={styles.container}>
@@ -23,14 +22,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Daily
-        </h1>
 
         <Image className="pt-6 pb-6"
           src="/begin.jpg"
-          height={288}
-          width={288}
+          height={500}
+          width={500}
           alt="BEGIN"
         />
 
