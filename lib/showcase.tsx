@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export function getAllGameIds() {
+export function getAllGameIdAndChapterIds() {
   const fileNames = fs.readdirSync("games");
   var arr = []
 
@@ -20,6 +20,22 @@ export function getAllGameIds() {
   return arr
 }
 
-export function getGameShowCaseData(id) {
+export function getGameData(id) {
   return require(`../games/${id}.json`);
+}
+
+
+export function getAllGameIds() {
+  const fileNames = fs.readdirSync("games");
+  return fileNames.map((fileName) => {
+    return {
+      params: {
+        gameID: fileName.replace(/\.json$/, '')
+      }
+    }
+  })
+}
+
+export function getGameShowCaseData(id) {
+  return require(`../games/${id}.json`)
 }

@@ -1,5 +1,12 @@
 {
   "title": "ひとり",
   "author": "nobody",
-  "number_of_chapters": 2
+  "number_of_chapters": 2,
+  "scenario": {
+    "1": ["This is chapter 1, sentence 1",
+          "This is chapter 1, sentence 2",
+          "sentence 3 is here, also chapter 1"],
+    "2": ["chapter 2, sentence 1",
+          "chapter 2, 2 sentence"]
+  }
 }
