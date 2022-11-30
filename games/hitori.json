@@ -2,6 +2,9 @@
   "title": "ひとり",
   "author": "nobody",
   "number_of_chapters": 2,
+  "showcasePicture": "tablet",
+  "description": "anyone there?",
+  "favicon": "",
   "scenario": {
     "1": ["This is chapter 1, sentence 1",
           "This is chapter 1, sentence 2",

@@ -35,7 +35,6 @@ export function getAllGameIds() {
     }
   })
 }
-
 export function getGameShowCaseData(id) {
   return require(`../games/${id}.json`)
 }

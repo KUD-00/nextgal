@@ -1,5 +1,31 @@
 {
   "title": "ふたり",
   "author": "nobody",
-  "number_of_chapters": 3
+  "number_of_chapters": 3,
+  "showcasePicture": "classroom",
+  "description": "someone here, this is just a description for this game, nothing more",
+  "favicon": "",
+  "scenario": [
+    {
+    "title": "It's nowhere",
+    "script": ["This is chapter 1, sentence 1",
+               "This is chapter 1, sentence 2",
+               "sentence 3 is here, also chapter 1"]
+  },
+    {
+    "title": "Someone is here",
+    "script":  ["chapter 2, sentence 1",
+                "chapter 2, 2 sentence"]
+  },
+    {
+    "title": "She leaves..",
+    "script":  ["chapter 2, sentence 1",
+                "chapter 2, 2 sentence"]
+  },
+    {
+    "title": "Another day in this place",
+    "script":  ["chapter 2, sentence 1",
+                "chapter 2, 2 sentence"]
+  }
+  ]
 }
