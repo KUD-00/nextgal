@@ -1,6 +1,5 @@
 import { getAllGameIds, getGameShowCaseData } from '../lib/showcase';
 import Head from 'next/head'
-import Textbox from '../components/textbox'
 import Image from 'next/image'
 import ChapterLink from '../components/ChapterLink'
 import { useRouter } from "next/router";
